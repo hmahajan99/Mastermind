@@ -24,7 +24,7 @@
 <ul>
 <li><b>Face Detection :</b> Enter an image url and the faces will be highligted.</li>
 <li><b>Authentication :</b> Users can register, sign in , view their profile, change passwords and even delete their account. A unique user icon is generated for each user. There is also a facility for a guest user (whose password cannot be changed and account cannot be deleted). </li>
-<li><b>Security :</b> Users passwords are stored securely as hashes in the database using bcrypt. Also all sensitive information(api key, database url) are accesed through environment variables. Communications between frontend and backend are secure against man-in-the-middle attacks due to bidirectional encryption using HTTPS protocol.</li>
+<li><b>Security :</b> Users passwords are stored securely as hashes in the database using bcrypt. Also all sensitive information(api key, database url) are accesed through environment variables. Communications between frontend and backend are secure against man-in-the-middle attacks due to bidirectional encryption using HTTPS protocol. Also measures for proper error handling have been taken.</li>
 <li><b>Routing :</b> Routing is implemented from scratch in React without the use of any third party libraries.</li>
 <li><b>Database :</b> A relational database system has been used to store all the information with a well defined schema implemented using PostgreSQL and Knex.js .</li>
 </ul>
