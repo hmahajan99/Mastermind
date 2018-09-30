@@ -4,7 +4,9 @@
 
 > It is built using React (for building user interfaces) and Express ( web framework for Node.js ) .
 
-> This repository hosts the code for the frontend part.
+> This repository hosts the code for the frontend part. Code for the server built using expess can be found at https://github.com/hmahajan99/Mastermind-api.
+
+> Deployed at https://mastermind-hm.herokuapp.com/
 
 ### Libraries used :
 <ul>
@@ -18,6 +20,16 @@
 <li>knex</li>
 </ul>
 
+## This app implements the following functionalities :
+<ul>
+<li><b>Face Detection :</b> Enter an image url and the faces will be highligted.</li>
+<li><b>Authentication :</b> Users can register, sign in , viewing their profile, change passwords and even delete their account. A unique user icon is generated for each user. There is also a facility for a guest user (whose password cannot be changed and account cannot be deleted). </li>
+<li><b>Security :</b> Users passwords are stored securely as hashes in the database using bcrypt. Also all sensitive information(api key, database url) are accesed through environment variables.</li>
+<li><b>Routing :</b> Routing is implemented from scratch in React without the use of any third party libraries.</li>
+<li><b>Database :</b> A relational database system has been used to store all the information with a well defined schema implemented using PostgreSQL and Knex.js .</li>
+</ul>
+
+To run this project :
 1. Clone this repo
 2. Change you directory : `cd Mastermind`
 3. Run `npm install`
