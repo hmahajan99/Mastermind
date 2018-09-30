@@ -34,3 +34,12 @@ To run this project :
 2. Change you directory : `cd Mastermind`
 3. Run `npm install`
 4. Run `npm start`
+
+#### Face Detection :
+![](images/FaceDetection.JPG)
+
+#### User Profile :
+![](images/Profile.JPG)
+
+#### Leaderboard :
+![](images/Leaderboard.JPG)
