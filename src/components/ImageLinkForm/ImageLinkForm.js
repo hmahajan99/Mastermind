@@ -4,7 +4,6 @@ import './ImageLinkForm.css';
 const ImageLinkForm = ({ onInputChange, onButtonSubmit }) => {
 
 // NOTE : Always do copy image url ,not copy image so that you can paste in input field.
-//        By default if initial state and detect button is clicked my github avatar will be used as imageUrl
   
   return (
     <div>
