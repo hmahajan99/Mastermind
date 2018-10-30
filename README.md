@@ -35,6 +35,8 @@ To run this project :
 3. Run `npm install`
 4. Run `npm start`
 
+This app as of now has more than 30 active users !!!
+
 #### Face Detection :
 ![](images/FaceDetection.JPG)
 
