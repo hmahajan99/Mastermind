@@ -1,4 +1,4 @@
-# Mastermind
+# Mastermind 1.0
 
 > This is a web application which uses machine learning to detect faces in your images with provisions for registering, signing in, viewing the leaderboard , changing your password and even deleting your account !! 
 
